@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+body {
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-image: url('../imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 311px;
+}
+
+div#tela-inicial {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: url('../imagens/tela-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 476px;
+    width: 269px;
+}
